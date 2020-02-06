@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 /**
- * 用java实现简单算法二分搜索法(奇数形式)
+ * 用java实现简单算法二分搜索法(奇数形式)简单实现
  */
 public class ErFen {
 
