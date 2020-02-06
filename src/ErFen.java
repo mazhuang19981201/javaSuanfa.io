@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 /**
- * 用java实现简单算法二分搜索法(奇数)
+ * 用java实现简单算法二分搜索法(奇数形式)
  */
 public class ErFen {
 
@@ -15,8 +15,8 @@ public class ErFen {
         int start = 0;           // 数组的开始下标
         int end = numble.length; // 数组的结束下标
 
-        // 继续循环的条件
-        boolean condition = true;
+       
+        boolean condition = true; // 继续循环的条件
 
         // 将数组排序
         Arrays.sort(numble);
