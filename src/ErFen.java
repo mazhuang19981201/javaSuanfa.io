@@ -15,10 +15,13 @@ public class ErFen {
         int start = 0;           // 数组的开始下标
         int end = numble.length; // 数组的结束下标
 
+        // 继续循环的条件
+        boolean condition = true;
+
         // 将数组排序
         Arrays.sort(numble);
 
-        if (true){
+        if (condition){
             // 如果大于所要查询的数字
             if (numble[end/2]>2){
             end = end/2;
@@ -30,6 +33,7 @@ public class ErFen {
             // 如果等于所要查询的数字
             if(numble[end/2]==2){
                 System.out.println("查到了！您要查询的数字下标为："+end/2);
+                condition = false;
             }
         }
     }
