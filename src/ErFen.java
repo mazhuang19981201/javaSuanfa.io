@@ -33,7 +33,6 @@ public class ErFen {
             // 如果等于所要查询的数字
             if(numble[end/2]==2){
                 System.out.println("查到了！您要查询的数字下标为："+end/2);
-                // 结束循环
                 condition = false;
             }
         }
