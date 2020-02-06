@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 /**
- * 用java实现简单算法二分搜索法(奇数形式)
+ * 用java实现简单算法二分搜索法(奇数形式)简单实现
  */
 public class ErFen {
 
@@ -33,6 +33,7 @@ public class ErFen {
             // 如果等于所要查询的数字
             if(numble[end/2]==2){
                 System.out.println("查到了！您要查询的数字下标为："+end/2);
+                // 结束循环
                 condition = false;
             }
         }
